@@ -1,0 +1,28 @@
+HTTP/1.1 201 Created
+Server: nginx/1.4.4
+Date: Sun, 19 Jan 2014 11:41:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 383
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, HEAD, OPTIONS, DELETE
+Access-Control-Max-Age: 300
+Cache-Control: no-cache, no-store
+Strict-Transport-Security: max-age=31556926; includeSubDomains
+X-Whom: test-web-2
+
+{
+    "shop_bill_id":"867955508",
+    "shop_order_number":"Mock-00000015-4",
+    "description":"Order description (refund)",
+    "bill_date":"31.04.2021",
+    "pay_date":"31.04.2021 15:30:30",
+    "pay_order_date":null,
+    "bill_amount":"-95",
+    "auth_code":"222222",
+    "status":"RETURN",
+    "attribute1":null,
+    "attribute2":null,
+    "error_code":"0",
+    "error_message":"Test return"
+}

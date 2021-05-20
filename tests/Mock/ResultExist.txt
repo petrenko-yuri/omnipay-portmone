@@ -1,0 +1,43 @@
+HTTP/1.1 200 Created
+Server: nginx/1.4.4
+Date: Sun, 19 Jan 2014 11:41:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 644
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, HEAD, OPTIONS, DELETE
+Access-Control-Max-Age: 300
+Cache-Control: no-cache, no-store
+Strict-Transport-Security: max-age=31556926; includeSubDomains
+X-Whom: test-web-2
+
+[{
+    "shopBillId":"867962131",
+    "shopOrderNumber":"Mock-00000015-3",
+    "description":"Order description (result)",
+    "billAmount":"-100",
+    "status":"RETURN",
+
+    "attribute1":null,
+    "attribute2":null,
+    "commission":0,
+
+    "bank_id":"1000",
+    "terminal_id":"68611",
+    "merchant_id":"AVAL_TEST",
+    "rrn":"",
+    "pay_date":"31.04.2021 15:30:30",
+    "payee_export_date":"27.04.2021 15:46:31",
+    "payee_export_flag":"N",
+    "pay_order_date":"31.12.2020",
+    "chargeback":"N",
+
+    "pay_order_date":null,
+    "authCode":"111111",
+    "errorCode":"0",
+    "errorMessage":"",
+
+    "cardMask":"444433******1111",
+    "token":"",
+    "gateType":"Card"
+}]

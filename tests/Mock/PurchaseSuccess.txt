@@ -1,0 +1,32 @@
+HTTP/1.1 201 Created
+Server: nginx/1.4.4
+Date: Sun, 19 Jan 2021 10:01:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 751
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, HEAD, OPTIONS, DELETE
+Access-Control-Max-Age: 300
+Cache-Control: no-cache, no-store
+Strict-Transport-Security: max-age=31556926; includeSubDomains
+X-Whom: test-web-2
+
+{
+  "SHOPBILLID": "867955508",
+  "SHOPORDERNUMBER": "Mock-00000010-1",
+  "APPROVALCODE": "366999",
+  "BILL_AMOUNT": "15",
+  "TOKEN": "18383637393535353038096252BDA0962D24B0B88D26D5B13037ECF3474391F560EB8B864A1ADAC614863922AC9DFE9E4887022F281585025544499",
+  "RESULT": "0",
+  "CARD_MASK": "444433******1111",
+  "ATTRIBUTE1": "1",
+  "ATTRIBUTE2": "2",
+  "ATTRIBUTE3": "3",
+  "ATTRIBUTE4": "4",
+  "RECEIPT_URL": "https:\/\/www.portmone.com.ua\/r3\/services\/receipts\/get-receipts\/shop-bill-id\/3534fadfe625371c3204f111254677de2355a0dd5c3dd7880deff7f4f821dc6a089b855621a5a7bd77accdd531b12ef3dfbef0ae02932c28ef005cfbd7da329d",
+  "LANG": "en",
+  "DESCRIPTION": "Опис замовлення (purchase/auth)",
+  "IPSTOKEN": "null",
+  "ERRORIPSCODE": "null",
+  "ERRORIPSMESSAGE": "null"
+}

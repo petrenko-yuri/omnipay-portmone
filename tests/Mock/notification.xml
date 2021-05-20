@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BILLS>
+  <BILL>
+        <PAYEE>
+            <NAME>WdiShop</NAME>
+            <CODE>1185</CODE>
+        </PAYEE>
+        <BANK>
+            <NAME>АТ "Банк "Фінанси та Кредит"</NAME>
+            <CODE>300131</CODE>
+            <ACCOUNT>29244020902980</ACCOUNT>
+        </BANK>
+        <BILL_ID>14561</BILL_ID>
+        <BILL_NUMBER>3892/1</BILL_NUMBER>
+        <BILL_DATE>2021-04-01</BILL_DATE>
+        <BILL_PERIOD>0421</BILL_PERIOD>
+        <PAY_DATE>2021-04-02</PAY_DATE>
+        <PAYED_AMOUNT>120.10</PAYED_AMOUNT>
+        <PAYED_COMMISSION>0</PAYED_COMMISSION>
+        <PAYED_DEBT>0</PAYED_DEBT>
+        <AUTH_CODE>739280</AUTH_CODE>
+        <PAYER>
+            <CONTRACT_NUMBER>Опис замовлення</CONTRACT_NUMBER>
+            <ATTRIBUTE1>1000-82-010</ATTRIBUTE1>
+        </PAYER>
+  </BILL>
+</BILLS>
