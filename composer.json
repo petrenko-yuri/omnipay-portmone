@@ -26,7 +26,8 @@
     "psr-4": { "Omnipay\\Portmone\\" : "src/" }
   },
   "require": {
-    "omnipay/common": "^3"
+    "omnipay/common": "^3",
+    "php-http/guzzle6-adapter": "^1.1.1|^2"
   },
   "require-dev": {
     "omnipay/tests": "^3",
