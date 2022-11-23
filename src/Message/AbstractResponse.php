@@ -2,11 +2,13 @@
 
 namespace Omnipay\Portmone\Message;
 
+use Omnipay\Common\Message\RedirectResponseInterface;
+
 /**
  * Class AbstractResponse
  * @package Omnipay\Portmone\Message
  */
-class AbstractResponse extends \Omnipay\Common\Message\AbstractResponse
+class AbstractResponse extends \Omnipay\Common\Message\AbstractResponse implements RedirectResponseInterface
 {
     /**
      * {@inheritdoc}
